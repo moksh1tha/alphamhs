@@ -92,21 +92,28 @@ const ProductsPage: React.FC = () => {
       logo: '/Screenshot 2025-06-23 210442.png',
       products: [
         {
-          category: 'Shackles',
+          category: 'Crosby - Shackles',
           items: [
             'D Shackle',
             'Bow Shackle',
             'Wide Body Shackle',
-            'Stainless Steel Shackles'
+            'Turn Buckle'
           ]
         },
         {
-          category: 'Hardware',
+          category: 'Crosby SP - Load Monitoring Devices',
           items: [
-            'Turn Buckles',
-            'Plate Lifting Clamps',
-            'Snatch Pulley Block',
-            'Wire Rope Clips'
+            'Radio Link Plus',
+            'Mini Weigher Plus',
+            'Blue Link'
+          ]
+        },
+        {
+          category: 'Crosby IP - Lifting Solutions',
+          items: [
+            'Horizontal Plate Lifting Clamps',
+            'Vertical Plate Lifting Clamps',
+            'Magnets'
           ]
         }
       ]
