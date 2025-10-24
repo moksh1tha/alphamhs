@@ -95,11 +95,11 @@ const ContactPage: React.FC = () => {
                     <div>
                       <h3 className="text-xl font-bold text-black mb-2">Email Addresses</h3>
                       <div className="space-y-1">
-                        <button 
-                          onClick={() => handleEmailClick('sales@alphamhs.com')}
+                        <button
+                          onClick={() => handleEmailClick('sales@alphamhs.in')}
                           className="block text-gray-600 hover:text-orange-500 transition-colors duration-300"
                         >
-                          sales@alphamhs.com
+                          sales@alphamhs.in
                         </button>
                         <button 
                           onClick={() => handleEmailClick('alphamhs25@gmail.com')}
@@ -254,11 +254,11 @@ const ContactPage: React.FC = () => {
             >
               Call Now: +91 7010203064
             </button>
-            <button 
-              onClick={() => handleEmailClick('sales@alphamhs.com')}
+            <button
+              onClick={() => handleEmailClick('sales@alphamhs.in')}
               className="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-orange-500 transition-all duration-300"
             >
-              Email: sales@alphamhs.com
+              Email: sales@alphamhs.in
             </button>
           </div>
         </div>
