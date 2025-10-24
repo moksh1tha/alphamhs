@@ -166,7 +166,7 @@ const ProductsPage: React.FC = () => {
       </section>
 
       {/* Product Categories Navigation */}
-      <section className="py-8 bg-gray-50 border-b border-gray-200 sticky top-[120px] z-40">
+      <section className="py-8 bg-gray-50 border-b border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-wrap justify-center gap-4">
             {Object.entries(productCategories).map(([key, category]) => {
@@ -215,10 +215,15 @@ const ProductsPage: React.FC = () => {
                   </div>
                   <h2 className={`text-5xl font-bold ${colors.text} mb-4`}>{category.name}</h2>
                   <p className="text-xl text-gray-600 mb-6">{category.description}</p>
-                  <div className="flex items-center justify-center space-x-2 text-gray-500">
+                  <a
+                    href={`https://${category.website}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center space-x-2 text-gray-500 hover:text-gray-700 transition-colors duration-300"
+                  >
                     <ExternalLink size={16} />
-                    <span>Website: {category.website}</span>
-                  </div>
+                    <span className="hover:underline">Website: {category.website}</span>
+                  </a>
                 </div>
 
                 {/* Products Grid */}
